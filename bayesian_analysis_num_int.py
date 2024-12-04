@@ -1,9 +1,6 @@
 import numpy as np
 import pandas as pd
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
 from scipy.integrate import quad
-from scipy.optimize import minimize
 from scipy.stats import norm, poisson
 
 # Load the Pima Indians Diabetes dataset
